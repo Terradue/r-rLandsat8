@@ -1,18 +1,18 @@
 package:
   name: r-rlandsat8
-  version: 0.1
+  version: 0.2
 
 source:
   path: ../src
 
 requirements:
   build:
-    - r=3.3.2
+    - r>=3.6
     - r-raster
     - r-rcurl
 
   run:
-    - r=3.3.2
+    - r>=3.6
     - r-raster
     - r-rcurl
     
